@@ -8,4 +8,4 @@ Monocomponents are interfaces which attach themselves onto your gameobject and d
 
 The "Processing" class functions as your "game" which contain "scenes" that hold your "gameObjects" as well as pointers to the "entities" within them. This means you can have multiple scenes running at the same time, with in one instance of the processing class.
 
-As of right now i'm working on this project myself, I'm currently implementing 3D animation using Aether.Extras, then I'll move on to 2D physics. After this, i'll make the first version of the engine publiclly available, forever. (:
+As of right now i'm working on this project myself, I'm currently implementing 3D animation using Aether.Extras, then I'll move on to 2D physics. After this, i'll make the first version of the engine publiclly available, my hope is that it should work on mac, linux, and windows!
