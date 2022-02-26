@@ -4,7 +4,7 @@ mono:Processing is a framework/wrapper built overtop MonoGame that implements th
 
 In mono:Processing, gameObjects are used to contain entities, and also to initialize/update entities. This means you can create entities without using gameObjects, or even from within other gameObjects as they are two mostly decoupled systems. Any standard class can be used as a component on an entity seeing as they are meant to just hold data or methods, however the gameobjects provide a way of controlling that data by using monocomponents.
 
-Monocomponents are interfacecs which attach themselves onto your gameobject and do whatever you want them to do. It's very similar to adding a component to a gameObject in unity.
+Monocomponents are interfaces which attach themselves onto your gameobject and do whatever you want them to do. It's very similar to adding a component to a gameObject in unity.
 
 The "Processing" class functions as your "game" which contain "scenes" that hold your "gameObjects" as well as pointers to the "entities" within them. This means you can have multiple scenes running at the same time, with in one instance of the processing class.
 
