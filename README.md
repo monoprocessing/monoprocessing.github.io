@@ -1,6 +1,6 @@
 # monoprocessing.github.io
 
-mono:Processing is a framework/wrapper built overtop monogame that implements the processing language as a basis for the 2D side, along with box 2D physics, an entity component system inspired by the unity framework, 3D animations, Bepu-Based 3D physics, and IMGUI as a debugging/GUI tool. This framework was created with a primary focus on allowing flexibility, and lower level control while simultaneously supplying the user with tools for quickly creating games or creative applications.
+mono:Processing is a framework/wrapper built overtop MonoGame that implements the processing language as a basis for the 2D side, along with box 2D physics, an entity component system inspired by the unity framework, 3D animations, Bepu-Based 3D physics, and IMGUI as a debugging/GUI tool. This framework was created with a primary focus on allowing flexibility, and lower level control while simultaneously supplying the user with tools for quickly creating games or creative applications.
 
 In mono:Processing, gameObjects are used to contain entities, and also to initialize/update entities. This means you can create entities without using gameObjects, or even from within other gameObjects as they are two mostly decoupled systems. Any standard class can be used as a component on an entity seeing as they are meant to just hold data or methods, however the gameobjects provide a way of controlling that data by using monocomponents.
 
